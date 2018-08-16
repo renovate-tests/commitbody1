@@ -3,6 +3,7 @@
     "chalk": "2.0.0"
   },
   "renovate": {
-    "extends": [":gitSignOff"]
+    "extends": ["@hbetts"],
+    "rebaseStalePrs": true
   }
 }
